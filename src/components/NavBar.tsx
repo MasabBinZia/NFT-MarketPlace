@@ -118,11 +118,13 @@ const Header = () => {
             >
               FAQ
             </Link>
-            <div
-              className={`flex px-2 h-10 w-32 rounded-full bg-red-200 justify-center items-center cursor-pointer`}
-            >
-              <Wallet className="mr-2" />
-              <a href={"/"}>Connect</a>
+            <div className={` justify-center`}>
+              <a
+                className={`flex px-2 h-10 w-32 rounded-full bg-purple-600 border-2 border-purple-600 hover:bg-black hover:duration-700  text-white font-bold justify-center items-center cursor-pointer`}
+              >
+                <Wallet className="mr-2" />
+                Connect
+              </a>
             </div>
           </div>
         </div>
