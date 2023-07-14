@@ -36,25 +36,25 @@ const Header = () => {
         <div
           className={`hidden text-white md:flex flex-col md:flex-row gap-x-10`}
         >
-          <Link href={"Category/female"} className="text-lg">
+          <Link href={""} className="text-lg hover:text-purple-600 ">
             Mint
           </Link>
-          <Link href={"Category/male"} className="text-lg">
+          <Link href={""} className="text-lg hover:text-purple-600 ">
             Team
           </Link>
-          <Link href={"Category/About"} className="text-lg">
+          <Link href={""} className="text-lg hover:text-purple-600 ">
             About
           </Link>
-          <Link href={"/Products"} className="text-lg">
-           FAQ
+          <Link href={"/"} className="text-lg hover:text-purple-600 ">
+            FAQ
           </Link>
         </div>
-        <div
-          className={`hidden md:flex px-2 h-10 w-32 rounded-full bg-red-200 justify-center items-center cursor-pointer`}
+        <a
+          className={`hidden md:flex px-2 h-10 w-32 rounded-full bg-purple-600 border-2 border-purple-600 hover:bg-black  text-white font-bold justify-center items-center cursor-pointer`}
         >
           <Wallet className="mr-2" />
-          <a href={"/"}>Connect</a>
-        </div>
+          Connect
+        </a>
         {/* Mobile Devices */}
         <div
           className={`${
@@ -104,7 +104,7 @@ const Header = () => {
               href={"/"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
-             FAQ
+              FAQ
             </Link>
             <div
               className={`flex px-2 h-10 w-32 rounded-full bg-red-200 justify-center items-center cursor-pointer`}
