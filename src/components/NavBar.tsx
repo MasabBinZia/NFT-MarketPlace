@@ -36,21 +36,33 @@ const Header = () => {
         <div
           className={`hidden text-white md:flex flex-col md:flex-row gap-x-10`}
         >
-          <Link href={""} className="text-lg hover:text-purple-600 ">
+          <Link
+            href={""}
+            className="text-lg hover:text-purple-600 hover:duration-700 "
+          >
             Mint
           </Link>
-          <Link href={""} className="text-lg hover:text-purple-600 ">
+          <Link
+            href={""}
+            className="text-lg hover:text-purple-600 hover:duration-700"
+          >
             Team
           </Link>
-          <Link href={""} className="text-lg hover:text-purple-600 ">
+          <Link
+            href={""}
+            className="text-lg hover:text-purple-600 hover:duration-700"
+          >
             About
           </Link>
-          <Link href={"/"} className="text-lg hover:text-purple-600 ">
+          <Link
+            href={"/"}
+            className="text-lg hover:text-purple-600  hover:duration-700"
+          >
             FAQ
           </Link>
         </div>
         <a
-          className={`hidden md:flex px-2 h-10 w-32 rounded-full bg-purple-600 border-2 border-purple-600 hover:bg-black  text-white font-bold justify-center items-center cursor-pointer`}
+          className={`hidden md:flex px-2 h-10 w-32 rounded-full bg-purple-600 border-2 border-purple-600 hover:bg-black hover:duration-700  text-white font-bold justify-center items-center cursor-pointer`}
         >
           <Wallet className="mr-2" />
           Connect
