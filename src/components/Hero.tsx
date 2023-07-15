@@ -67,8 +67,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
-        {/* 58:39 */}
       </section>
     </div>
   );
