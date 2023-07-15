@@ -12,7 +12,7 @@ const TrendingCard = (props: {
   return (
 
     <div className="flex items-center justify-start">
-      <div className="my-10 w-72 bg-black p-5 rounded-2xl border-4 border-white">
+      <div className="my-10 w-72 bg-black p-5 rounded-2xl border-4 border-purple-600 hover:scale-110 duration-300 cursor-pointer">
         <img src={props.banner} className='rounded-2xl' alt="BAYC Ape" />
         <h2 className="text-md font-bold mt-3"></h2>
         <p className="text-white text-sm mb-2">{props.NFtName}</p>

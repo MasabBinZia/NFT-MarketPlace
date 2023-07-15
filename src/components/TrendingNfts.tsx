@@ -17,12 +17,7 @@ const TrendingNfts = () => {
     <section className="mt-8">
       <div className="flex flex-col relative justify-center items-center py-12">
         <h1 className="text-white text-3xl font-bold ">
-          <span className="from-sky-200 via-purple-600 to-purple-600 bg-gradient-to-r bg-clip-text text-transparent">
-            Trending&nbsp;
-          </span>
-          <span className="from-purple-600 via-sky-200 to-pink-600 bg-gradient-to-r bg-clip-text text-transparent">
-            NFTs
-          </span>
+          Trending NFTs
         </h1>
         <div className="absolute inset-0 bg-gradient-to-b from-purple-600 via-blue-600 to-purple-600 h-full w-full left-50 blur-3xl z-[-99]"></div>
         <div className="flex flex-row space-x-6" >
@@ -38,7 +33,14 @@ const TrendingNfts = () => {
             />
           ))}
         </div>
+        <a
+          className="flex px-2 h-16 text-xl font-bold border-2 border-white text-white hover:bg-purple-600 hover:duration-700 w-40 rounded-full justify-center items-center cursor-pointer"
+          href={"/"}
+        >
+          See More
+        </a>
       </div>
+
     </section>
   );
 };

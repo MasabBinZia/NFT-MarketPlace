@@ -57,8 +57,9 @@ const Hero = () => {
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-b from-purple-600 via-blue-600 to-purple-600 h-full w-full blur-3xl z-[-99]"></div>
           <div className="lg:w-[800px] flex flex-1 items-center justify-center">
-            <div className="flex border-4 rounded-lg">
+            <div className="flex border-4 border-purple-600 rounded-2xl">
               <img
+              className="rounded-xl"
                 src="https://i.seadn.io/gcs/files/3b814f7eb68a7db1df38408de1c77f4f.gif?auto=format&dpr=1&w=256"
                 width="600"
                 height="600"
