@@ -1,5 +1,6 @@
 import Brands from "@/components/Brands";
 import Hero from "@/components/Hero";
+import InfoSec from "@/components/InfoSec";
 import TrendingNfts from "@/components/TrendingNfts";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Brands />
       <TrendingNfts/>
+      <InfoSec/>
     </main>
   );
 }

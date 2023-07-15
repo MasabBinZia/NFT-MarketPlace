@@ -12,7 +12,7 @@ const settings: Settings = {
 };
 
 const TrendingNfts = () => {
-  const fewNft = NftsData.slice(0, 3);
+  const fewNft = NftsData.slice(0,4);
   return (
     <section className="mt-8">
       <div className="flex flex-col relative justify-center items-center py-12">
