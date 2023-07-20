@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NFT Marketplace Template (Frontend)
+
+This is a template for building an NFT marketplace frontend using Next.js, TypeScript, React, and Tailwind CSS.
+
+## Prerequisites
+
+Before getting started, make sure you have the following installed:
+
+- Node.js (v14 or later)
+- npm (Node Package Manager)
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone <repository_url>
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Navigate to the project directory:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   cd nft-marketplace
+   ```
 
-## Learn More
+3. Install the dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+   The application will now be running on `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies Used
+
+- [Next.js](https://nextjs.org/): React framework for server-rendered applications.
+- [TypeScript](https://www.typescriptlang.org/): Typed superset of JavaScript.
+- [React](https://reactjs.org/): JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework.
+
+## Customization
+
+
+## Deploying the Application
+
+To deploy the frontend, you can use various hosting platforms like Vercel, Netlify, or GitHub Pages. Refer to their respective documentation for deployment instructions.
+
+## Contributing
+
+If you find any issues or have suggestions to improve the template, feel free to open a pull request or issue on the GitHub repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Happy coding! If you have any questions, feel free to reach out.
+
+Author: [MasabBinZia](https://github.com/MasabBinZia)
