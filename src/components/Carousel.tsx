@@ -10,12 +10,39 @@ import { NftsData } from "@/Data/NftsData";
 export class Carousel extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       arrows: false,
       infinite: false,
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 1150,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 4,
+          },
+        },
+        
+        ],
     };
 
     return (
@@ -24,7 +51,7 @@ export class Carousel extends Component {
           <h1 className="text-white text-center text-3xl font-bold ">
             Trending NFTs
           </h1>
-          <Slider className="" {...settings}>
+          <Slider className="px-12 " {...settings}>
             {NftsData.map((nft) => (
               <TrendingCard
                 key={nft.id}
