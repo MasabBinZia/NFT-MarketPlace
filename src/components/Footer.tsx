@@ -9,9 +9,9 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="text-purple-600 body-font  sm:mx-8 md:mx-16 lg:mx-32">
+    <footer className="text-purple-600 body-font">
       <div className="container px-5 py-24 mx-auto flex md:items-start text-start  lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="space-y-6 w-64 flex-shrink-0 md:mx-0 px-4 text-start md:text-left">
+        <div className="space-y-6 w-64 flex-shrink-0 md:mx-0 mx-auto text-start md:text-left">
           <Link
             href={"/"}
             className="flex title-font font-medium items-start md:justify-start justify-start text-white"
