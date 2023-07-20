@@ -91,4 +91,14 @@ export const NftsData: trendingNfts[] = [
       "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
     price: 12,
   },
+  {
+    id: 9,
+    banner:
+      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
+    NFtName: "Lady Ape# 5049",
+    ownerName: "Almost_serious_art_gallery",
+    ownerPfp:
+      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
+    price: 12,
+  },
 ];

@@ -15,9 +15,9 @@ const Brands = () => {
           <div className="container flex h-[200px] justify-center items-center">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4">
-                <div className="flex flex-wrap items-center justify-center">
+                <div className="flex flex-wrap  items-center justify-center">
                   <Link
-                    className="mx-4 flex w-[150px] items-center justify-center  2xl:w-[180px]"
+                    className="mx-4 flex  w-[100px] items-center justify-center  2xl:w-[150px]"
                     href={"/"}
                   >
                     <Image
@@ -27,7 +27,7 @@ const Brands = () => {
                     />
                   </Link>
                   <Link
-                    className="mx-4 flex w-[150px] items-center justify-center  2xl:w-[180px]"
+                    className="mx-4 flex w-[100px] items-center justify-center  2xl:w-[150px]"
                     href={"/"}
                   >
                     <Image
@@ -37,7 +37,7 @@ const Brands = () => {
                     />
                   </Link>
                   <Link
-                    className="mx-4 flex w-[150px] items-center justify-center  2xl:w-[180px]"
+                    className="mx-4 flex w-[100px] items-center justify-center  2xl:w-[150px]"
                     href={"/"}
                   >
                     <Image
@@ -47,7 +47,7 @@ const Brands = () => {
                     />
                   </Link>
                   <Link
-                    className="mx-4 flex w-[150px] items-center justify-center  2xl:w-[180px]"
+                    className="mx-4 flex w-[100px] items-center justify-center  2xl:w-[150px]"
                     href={"/"}
                   >
                     <Image
@@ -57,7 +57,7 @@ const Brands = () => {
                     />
                   </Link>
                   <Link
-                    className="mx-4 flex w-[150px] items-center justify-center  2xl:w-[180px]"
+                    className="mx-4 flex w-[100px] items-center justify-center  2xl:w-[150px]"
                     href={"/"}
                   >
                     <Image
