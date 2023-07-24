@@ -38,7 +38,23 @@ const TrendingCard = (props: {
               {props.ownerName}
             </a>
           </p>
+
         </div>
+        <div className="flex justify-center space-x-4 items-center">
+        <a
+          className="flex px-2 h-12 text-sm font- border w-28  border-white bg-blue-600 text-white hover:bg-white hover:text-black hover:duration-700  rounded-full justify-center items-center cursor-pointer"
+          href={"/"}
+        >
+          Mint Now
+        </a>
+        <a
+          className="flex px-2 h-12 text-sm font- border w-28 border-white  text-white hover:bg-purple-600 hover:duration-700  rounded-full justify-center items-center cursor-pointer"
+          href={"/"}
+        >
+          View
+        </a>
+        </div>
+
       </div>
     </div>
   );
