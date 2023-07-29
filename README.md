@@ -7,7 +7,7 @@ This is a template for building an NFT marketplace frontend using Next.js, TypeS
 Before getting started, make sure you have the following installed:
 
 - Node.js
-- npm (Node Package Manager)
+- npm 
 
 ## Getting Started
 
