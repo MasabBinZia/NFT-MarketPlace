@@ -1,7 +1,7 @@
 import { NftsData } from "@/Data/NftsData";
 import React from "react";
 import Slider, { Settings } from "react-slick";
-import TrendingCard from "./TrendingCard";
+import TrendingCard from "./NftCard";
 
 const settings: Settings = {
   centerMode: false,

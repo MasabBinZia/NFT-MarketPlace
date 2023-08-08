@@ -1,6 +1,13 @@
+import Wallet from "@/assets/imgs/InfoImg/Wallet.png";
+import Upload from "@/assets/imgs/InfoImg/upload.png";
+import Bookmark from "@/assets/imgs/InfoImg/bookmark.png";
+
+
+import { StaticImageData } from "next/image";
+
 type infodata = {
   id: number;
-  icon: string;
+  icon: StaticImageData;
   title: string;
   desc: string;
 };
@@ -8,19 +15,19 @@ type infodata = {
 export const InfoData: infodata[] = [
   {
     id: 1,
-    icon: "https://static.vecteezy.com/system/resources/previews/022/104/179/original/wallet-icon-in-gradient-colors-finance-signs-illustration-png.png",
+    icon: Wallet,
     title: "Set up your wallet",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget molestie magna. Nam libero nisl, mattis vitae ullamcorper feugiat, luctus et erat. Phasellus id odio sit amet ex blandit ultrices. Ut facilisis nisl et viverra congue. Vestibulum rhoncus leo a eleifend semper. Ut hendrerit urna dictum sapien euismod, ut porttitor ante pretium.",
   },
   {
     id: 2,
-    icon: "https://prism.northwestern.edu/static/images/icons/upload-icon.png",
+    icon: Upload,
     title: "Upload & Create Collection",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget molestie magna. Nam libero nisl, mattis vitae ullamcorper feugiat, luctus et erat. Phasellus id odio sit amet ex blandit ultrices. Ut facilisis nisl et viverra congue. Vestibulum rhoncus leo a eleifend semper. Ut hendrerit urna dictum sapien euismod, ut porttitor ante pretium.",
   },
   {
     id: 3,
-    icon: "https://images.vexels.com/media/users/3/223055/isolated/lists/eb3fcec56c95c2eb7ded9201e51550a2-bookmark-icon-flat.png",
+    icon: Bookmark,
     title: "List them for sale",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget molestie magna. Nam libero nisl, mattis vitae ullamcorper feugiat, luctus et erat. Phasellus id odio sit amet ex blandit ultrices. Ut facilisis nisl et viverra congue. Vestibulum rhoncus leo a eleifend semper. Ut hendrerit urna dictum sapien euismod, ut porttitor ante pretium.",
   },

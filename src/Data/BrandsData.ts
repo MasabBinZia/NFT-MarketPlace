@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
-import metamask from "@/assets/imgs/metamask-logo.png";
-import Coinbase from "@/assets/imgs/Coinbase.svg.png";
-import SafePal from "@/assets/imgs/safepal.png";
-import Exodus from "@/assets/imgs/EXODUS.png";
+import metamask from "@/assets/imgs/logos/metamask-logo.png";
+import Coinbase from "@/assets/imgs/logos/Coinbase.svg.png";
+import SafePal from "@/assets/imgs/logos/safepal.png";
+import Exodus from "@/assets/imgs/logos/EXODUS.png";
 import { brandsdata } from "@/types/brands";
 
 

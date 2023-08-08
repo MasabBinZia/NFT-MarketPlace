@@ -9,7 +9,7 @@ const InfoSec = () => {
         <h2 className="text-3xl text-center uppercase py-6 eading-normal font-bold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">
           Get your Now by following process
         </h2>
-        <div className="text-white px-4 space-y-12  md:flex-col md:space-y-12  lg:flex-row lg:flex py-6">
+        <div className="text-white px-4 md:flex-col lg:flex-row lg:flex ">
           {InfoData.map((infoitem) => (
             <InfoCard
               key={infoitem.id}

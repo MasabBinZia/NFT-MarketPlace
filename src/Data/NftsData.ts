@@ -1,104 +1,86 @@
 import { StaticImageData } from "next/image";
-import Nft from "@/assets/imgs/pfo.jpeg";
+import Nft1 from "@/assets/imgs/NFTs/1.webp";
+import Nft2 from "@/assets/imgs/NFTs/VirungaCyberKongz.png";
+import Nft3 from "@/assets/imgs/NFTs/bybit.jpeg";
+import Nft4 from "@/assets/imgs/NFTs/cyptopunk.webp";
+import Nft5 from "@/assets/imgs/NFTs/RockinTuna.gif";
+import Nft6 from "@/assets/imgs/NFTs/pssssd.gif";
+import Nft7 from "@/assets/imgs/NFTs/io-nfts.gif";
+import Nft8 from "@/assets/imgs/NFTs/Dogs.gif";
+import PFP from "@/assets/imgs/NFTs/pfp.jpg";
 
 type trendingNfts = {
   id: number;
-  banner: string;
+  banner: StaticImageData;
   NFtName: string;
   ownerName: string;
-  ownerPfp: string;
+  ownerPfp: StaticImageData;
   price: number;
 };
 
 export const NftsData: trendingNfts[] = [
   {
     id: 1,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
-    NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
+    banner: Nft1,
+    NFtName: "Bored Ape",
+    ownerName: "SeriousArt",
+    ownerPfp: PFP,
+    price: 15,
   },
   {
     id: 2,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
-    NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
+    banner: Nft2,
+    NFtName: "CyberKongz",
+    ownerName: "ArtLover123",
+    ownerPfp: PFP,
+    price: 30,
   },
   {
     id: 3,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
+    banner: Nft3,
     NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
+    ownerName: "CreativeCollector",
+    ownerPfp: PFP,
+    price: 18,
   },
   {
     id: 4,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
+    banner: Nft4,
     NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
+    ownerName: "NFTEnthusiast",
+    ownerPfp: PFP,
+    price: 22,
   },
   {
     id: 5,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
+    banner: Nft5,
     NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
+    ownerName: "DigitalDreamer",
+    ownerPfp: PFP,
+    price: 25,
   },
   {
     id: 6,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
+    banner: Nft6,
     NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
+    ownerName: "GalleryGuru",
+    ownerPfp: PFP,
+    price: 40,
   },
   {
     id: 7,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
+    banner: Nft7,
     NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
+    ownerName: "AestheticAdmirer",
+    ownerPfp: PFP,
+    price: 16,
   },
   {
     id: 8,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
+    banner: Nft8,
     NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
-  },
-  {
-    id: 9,
-    banner:
-      "https://i.seadn.io/gae/0iCsYxXL_Gcd9r5lNXJKKGVeMsYBuIcEiIJDGhqRfWYmXZxp2yUVExhIgbQQl_HPE1dW3T80Aa8T3-iLv7yxIlK9zk-vC84kW-AK?auto=format&dpr=1&w=1000",
-    NFtName: "Lady Ape# 5049",
-    ownerName: "Almost_serious_art_gallery",
-    ownerPfp:
-      "https://i.seadn.io/gcs/files/eebe0d157c7c935a49007f77d93b8b44.jpg?auto=format&dpr=1&w=256",
-    price: 12,
+    ownerName: "CuratorCool",
+    ownerPfp: PFP,
+    price: 28,
   },
 ];
