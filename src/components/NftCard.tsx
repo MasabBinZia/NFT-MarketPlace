@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
+import ETH from "@/assets/imgs/ETH.png";
 
 const TrendingCard = (props: {
   id: number;
@@ -17,10 +18,12 @@ const TrendingCard = (props: {
         <p className="text-white text-sm mb-2">{props.NFtName}</p>
         <div className="flex justify-between items-center text-sm">
           <p className="text-purple-400 flex  items-center justify-center font-bold">
-            <img
+            <Image
               className="mr-1"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ethereum_logo_translucent.svg/1396px-Ethereum_logo_translucent.svg.png"
+              src={ETH}
               width={20}
+              height={20}
+              alt="ETH"
             />{" "}
             {props.price} ETH
           </p>
