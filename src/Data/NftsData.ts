@@ -1,4 +1,3 @@
-import { StaticImageData } from "next/image";
 import Nft1 from "@/assets/imgs/NFTs/1.webp";
 import Nft2 from "@/assets/imgs/NFTs/VirungaCyberKongz.png";
 import Nft3 from "@/assets/imgs/NFTs/bybit.jpeg";
@@ -8,15 +7,7 @@ import Nft6 from "@/assets/imgs/NFTs/pssssd.gif";
 import Nft7 from "@/assets/imgs/NFTs/io-nfts.gif";
 import Nft8 from "@/assets/imgs/NFTs/Dogs.gif";
 import PFP from "@/assets/imgs/NFTs/pfp.jpg";
-
-type trendingNfts = {
-  id: number;
-  banner: StaticImageData;
-  NFtName: string;
-  ownerName: string;
-  ownerPfp: StaticImageData;
-  price: number;
-};
+import { trendingNfts } from "@/types/TreadingNfts";
 
 export const NftsData: trendingNfts[] = [
   {

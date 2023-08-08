@@ -1,4 +1,3 @@
-import { StaticImageData } from "next/image";
 import metamask from "@/assets/imgs/logos/metamask-logo.png";
 import Coinbase from "@/assets/imgs/logos/Coinbase.svg.png";
 import SafePal from "@/assets/imgs/logos/safepal.png";

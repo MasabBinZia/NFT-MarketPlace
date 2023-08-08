@@ -1,16 +1,7 @@
 import Wallet from "@/assets/imgs/InfoImg/Wallet.png";
 import Upload from "@/assets/imgs/InfoImg/upload.png";
 import Bookmark from "@/assets/imgs/InfoImg/bookmark.png";
-
-
-import { StaticImageData } from "next/image";
-
-type infodata = {
-  id: number;
-  icon: StaticImageData;
-  title: string;
-  desc: string;
-};
+import { infodata } from "@/types/InfoTypes";
 
 export const InfoData: infodata[] = [
   {
