@@ -1,74 +1,27 @@
-import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import metamask from "@/assets/imgs/metamask-logo.png";
-import Trust from "@/assets/imgs/Trust.png";
-import WalletConnect from "@/assets/imgs/walletconnect.png";
-import SafePal from "@/assets/imgs/safepal.png";
-import Exodus from "@/assets/imgs/EXODUS.png";
+import { BrandsData } from "@/Data/BrandsData";
 
 const Brands = () => {
   return (
     <>
-      <section className="flex justify-center mt-12">
-        <div className="bg-gradient-to-r w-[700px] from-purple-600 via-blue-600 to-purple-600 rounded-2xl  ">
-          <div className="container flex h-[200px] justify-center items-center">
-            <div className="flex flex-wrap -mx-4">
-              <div className="w-full px-4">
-                <div className="flex flex-wrap  items-center justify-center">
-                  <Link
-                    className="mx-4 flex  w-[100px] items-center justify-center  2xl:w-[150px]"
-                    href={"/"}
-                  >
-                    <Image
-                      className="w-full h-full"
-                      alt="Brand Image"
-                      src={metamask}
-                    />
-                  </Link>
-                  <Link
-                    className="mx-4 flex w-[100px] items-center justify-center  2xl:w-[150px]"
-                    href={"/"}
-                  >
-                    <Image
-                      className="w-full h-full"
-                      alt="Brand Image"
-                      src={Trust}
-                    />
-                  </Link>
-                  <Link
-                    className="mx-4 flex w-[100px] items-center justify-center  2xl:w-[150px]"
-                    href={"/"}
-                  >
-                    <Image
-                      className="w-full h-full"
-                      alt="Brand Image"
-                      src={WalletConnect}
-                    />
-                  </Link>
-                  <Link
-                    className="mx-4 flex w-[100px] items-center justify-center  2xl:w-[150px]"
-                    href={"/"}
-                  >
-                    <Image
-                      className="w-full h-full"
-                      alt="Brand Image"
-                      src={SafePal}
-                    />
-                  </Link>
-                  <Link
-                    className="mx-4 flex w-[100px] items-center justify-center  2xl:w-[150px]"
-                    href={"/"}
-                  >
-                    <Image
-                      className="w-full h-full"
-                      alt="Brand Image"
-                      src={Exodus}
-                    />
-                  </Link>
-                </div>
+      <section className="lg:py-24 mt-24">
+        <div className="container px-5 mx-auto lg:px-24 ">
+          <div className="flex flex-col w-full mb-4 text-left lg:text-center">
+            <h2 className="text-3xl text-center uppercase py-6 eading-normal font-bold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">
+              Trusted by top-tier product companies
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 gap-16 mb-16 text-center lg:grid-cols-4">
+            {BrandsData.map((data) => (
+              <div key={data.id} className="flex items-center justify-center">
+                <Image
+                  src={data.img}
+                  alt={data.name}
+                  className="block object-contain h-16 greyC"
+                />
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
