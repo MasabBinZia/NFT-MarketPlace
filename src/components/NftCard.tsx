@@ -3,9 +3,8 @@ import React from "react";
 
 const TrendingCard = (props: {
   id: number;
-  banner: string;
+  banner: StaticImageData;
   NFtName: string;
-  img: StaticImageData;
   ownerName: string;
   ownerPfp: StaticImageData;
   price: number;
