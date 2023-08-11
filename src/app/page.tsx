@@ -2,6 +2,7 @@ import Brands from "@/components/Brands";
 import { Carousel } from "@/components/Carousel";
 import Hero from "@/components/Hero";
 import InfoSec from "@/components/InfoSec";
+import ScrollToTop from "@/components/ScrollToUp";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Brands />
       <Carousel />
       <InfoSec />
+      <ScrollToTop/>
     </main>
   );
 }
